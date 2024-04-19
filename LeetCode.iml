@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/129. Sum Root to Leaf Numbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/33. Search in Rotated Sorted Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/34. Find First and Last Position of Element in Sorted Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/404. Sum of Left Leaves" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/463. Island Perimeter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/58. Length of Last Word" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/623. Add One Row to Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/66. Plus One" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LeetCode/988. Smallest String Starting From Leaf" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
