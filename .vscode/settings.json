@@ -58,18 +58,19 @@
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "C_Cpp.errorSquiggles": "disabled",
   "java.project.sourcePaths": [
-    "LeetCode/988. Smallest String Starting From Leaf",
-    "LeetCode/66. Plus One",
-    "LeetCode/623. Add One Row to Tree",
-    "LeetCode/58. Length of Last Word",
-    "LeetCode/463. Island Perimeter",
-    "LeetCode/404. Sum of Left Leaves",
-    "LeetCode/34. Find First and Last Position of Element in Sorted Array",
-    "LeetCode/33. Search in Rotated Sorted Array",
-    "LeetCode/200. Number of Islands",
-    "LeetCode/1992. Find All Groups of Farmland",
-    "LeetCode/1971. Find if Path Exists in Graph",
     "LeetCode/129. Sum Root to Leaf Numbers",
-    "LeetCode/310. Minimum Height Trees"
-  ]
+    "LeetCode/1971. Find if Path Exists in Graph",
+    "LeetCode/1992. Find All Groups of Farmland",
+    "LeetCode/200. Number of Islands",
+    "LeetCode/310. Minimum Height Trees",
+    "LeetCode/33. Search in Rotated Sorted Array",
+    "LeetCode/34. Find First and Last Position of Element in Sorted Array",
+    "LeetCode/404. Sum of Left Leaves",
+    "LeetCode/463. Island Perimeter",
+    "LeetCode/58. Length of Last Word",
+    "LeetCode/623. Add One Row to Tree",
+    "LeetCode/66. Plus One",
+    "LeetCode/988. Smallest String Starting From Leaf"
+  ],
+  "java.project.referencedLibraries": []
 }
