@@ -24,3 +24,18 @@ print(solution.compareVersion("1.01","1.001"))
 print(solution.compareVersion("1.0","1.0.0")) 
 print(solution.compareVersion("0.1","1.1"))
 print(solution.compareVersion("1.0.1","1"))
+class Solution(object):
+    def findMaxK(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
+        k = -1
+        nums_set = set(nums)
+        for n in nums:
+            if n > 0:
+                if n > k and -n in nums_set:
+                    k = n
+
+
+        return k
