@@ -72,5 +72,8 @@
     "LeetCode/66. Plus One",
     "LeetCode/988. Smallest String Starting From Leaf"
   ],
-  "java.project.referencedLibraries": []
+  "java.project.referencedLibraries": [],
+  "files.associations": {
+    "iosfwd": "cpp"
+  }
 }
