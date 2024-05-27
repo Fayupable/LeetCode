@@ -15,8 +15,9 @@ To clone the project to your local machine, follow these steps:
 
 1. Open your terminal.
 2. Clone the repository using the following command:
+
+
    ```
-   sh
    git clone https://github.com/Fayupable/LeetCode.git
 
    ```
