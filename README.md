@@ -1,4 +1,4 @@
-# LeetCode
+# LeetCode Solutions 
 
 This project contains solutions to various LeetCode problems. Each problem is explained and solved in the respective files.
 
