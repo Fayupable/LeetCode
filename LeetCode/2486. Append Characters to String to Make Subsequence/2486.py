@@ -11,7 +11,7 @@ class Solution(object):
                 i += 1  # Increment the pointer for t
         return len(t) - i  # Return the number of characters that need to be appended to s
     
-
+#other people's solutions
 '''
 class Solution:
     def appendCharacters(self, s: str, t: str) -> int:
@@ -80,4 +80,14 @@ class Solution:
         it = iter(s)
         matching_count = sum(1 for char in t if char in it)
         return len(t) - matching_count
+'''
+'''
+class Solution:
+    def appendCharacters(self, s: str, t: str) -> int:
+        leng_s = len(s); leng_t = len(t)
+        i, j = 0, 0
+        while leng_s > i and leng_t > j:
+            if s[i] == t[j]: i += 1; j += 1
+            else: i += 1
+        return leng_t - j
 '''
