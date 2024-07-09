@@ -18,7 +18,6 @@ public class Solution
     }
 }
 //other people's solution
-
 /*
 public class Solution {
     public double AverageWaitingTime(int[][] customers) {
