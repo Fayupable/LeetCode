@@ -105,3 +105,70 @@ class Solution {
  * }
  * }
  */
+
+/*
+ * class Solution {
+ * public int secondMinimum(int n, int[][] edges, int time, int change) {
+ * List<List<Integer>> adj = new ArrayList<>();
+ * 
+ * for (int i = 0; i <= n; i++) {
+ * adj.add(new ArrayList<>());
+ * }
+ * 
+ * for (int[] edge : edges) {
+ * int u = edge[0];
+ * int v = edge[1];
+ * 
+ * adj.get(u).add(v);
+ * adj.get(v).add(u);
+ * }
+ * 
+ * int[] dist1 = new int[n + 1];
+ * int[] dist2 = new int[n + 1];
+ * 
+ * Arrays.fill(dist1, Integer.MAX_VALUE);
+ * Arrays.fill(dist2, Integer.MAX_VALUE);
+ * 
+ * int[] freq = new int[n + 1];
+ * 
+ * Queue<int[]> queue = new PriorityQueue<>((a, b) -> (a[1] - b[1]));
+ * 
+ * queue.add(new int[] { 1, 0 });
+ * 
+ * while (!queue.isEmpty()) {
+ * int[] curr = queue.poll();
+ * 
+ * int currStop = curr[0];
+ * int currTime = curr[1];
+ * 
+ * freq[currStop]++;
+ * 
+ * if (currStop == n && freq[currStop] == 2) {
+ * return currTime;
+ * }
+ * 
+ * // catch
+ * if ((currTime / change) % 2 != 0) {
+ * currTime = change * ((currTime / change) + 1);
+ * }
+ * 
+ * for (int nextStop : adj.get(currStop)) {
+ * if (dist1[nextStop] > currTime + time) {
+ * dist2[nextStop] = dist1[nextStop];
+ * dist1[nextStop] = currTime + time;
+ * 
+ * queue.add(new int[] { nextStop, dist1[nextStop] });
+ * }
+ * else if (dist2[nextStop] > currTime + time && dist1[nextStop] != currTime +
+ * time) {
+ * dist2[nextStop] = currTime + time;
+ * 
+ * queue.add(new int[] { nextStop, dist2[nextStop] });
+ * }
+ * }
+ * }
+ * 
+ * return -1;
+ * }
+ * }
+ */
